@@ -34,7 +34,10 @@ public class UnitHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+        {
+            footmen.Clear();
+        }
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             foreach (GameObject footman in footies)
@@ -111,7 +114,7 @@ public class UnitHandler : MonoBehaviour
             }
             
         }
-        foreach (GameObject footman in footmen)
+        foreach (GameObject footman in footies)
         {
             footScript = footman.GetComponent<Footman>();
             anim = footman.GetComponent<Animator>();
