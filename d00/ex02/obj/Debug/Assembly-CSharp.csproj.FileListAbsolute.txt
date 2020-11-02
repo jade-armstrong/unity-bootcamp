@@ -1,2 +1,0 @@
-C:\Users\Jade\unity_bootcamp\ex02\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-C:\Users\Jade\unity_bootcamp\ex02\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
